@@ -70,13 +70,7 @@ app.get('/auth/google/callback',
 app.listen(3000, () => console.log('Server started on port 3000'));```
 
 
-### 3. Mise en Place de l'Authentification JWT
 
-- **Génération du JWT** : Lorsque l'utilisateur s'authentifie, générez un JWT signé avec une clé secrète. Ce jeton contiendra les informations de l'utilisateur et des claims spécifiques.
-
-- **Validation du JWT** : Lors de chaque requête, le serveur valide le JWT reçu pour s'assurer qu'il est valide et n'a pas été altéré.
-
-- **Révocation des Tokens** : Pour des raisons de sécurité, prévoyez un mécanisme de révocation des tokens (blacklist, durée de vie limitée).
 
 ```
 ### 3. Mise en Place de l'Authentification JWT
