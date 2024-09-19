@@ -25,36 +25,7 @@ This project involves:
 -   Enhancing cloud-native deployments using Kubernetes.
 -   Collaborating with a distributed team to scale out Hyper Database capabilities.
 
-Project Structure
------------------
 
-plaintext
-
-Copier le code
-
-`Hyper-Database-Project/
-│
-├── guides/
-│   ├── setup/
-│   │   └── setup_guide.md
-│   ├── development/
-│   │   └── development_guide.md
-│   ├── testing/
-│   │   └── testing_guide.md
-│   ├── deployment/
-│   │   └── deployment_guide.md
-│   └── contribution/
-│       └── contribution_guide.md
-│
-├── src/                # Source code for the project
-│   ├── api/            # API integration code
-│   ├── db/             # Database optimization algorithms
-│   ├── cloud/          # Cloud-native components (Docker, Kubernetes)
-│   └── tests/          # Test scripts and testing framework
-│
-├── .gitignore          # Files and directories to ignore in git
-├── LICENSE             # License information
-└── README.md           # This README file`
 
 Setup Guide
 -----------
